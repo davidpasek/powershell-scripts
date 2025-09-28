@@ -12,3 +12,8 @@ $Headers = @{
 # Call FortiGate API (skip self-signed cert check)
 $Response = Invoke-RestMethod -Uri $Uri -Headers $Headers -Method Get -SkipCertificateCheck
 $Response
+
+# You can work with particular JSON response parameters
+# $Response.results.model_name
+# $Response.results.hostname
+# $Response.version
