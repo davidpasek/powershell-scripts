@@ -6,7 +6,7 @@
 $FortiGateIP     = "192.168.8.15"
 $FortiGatePort   = "443"
 $Token           = "bxg37kQ899603bNNp6p10nnhz3j8Qm"
-$BackupDir       = "/root/fortigate-conf"
+$BackupDir       = "/root/fortigate-backup-conf"
 $BackupFileName  = "fortigate-full-config"
 $BackupFileExt   = "json"
 # The number of days to keep files before deletion
